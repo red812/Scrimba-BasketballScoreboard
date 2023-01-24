@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="homescore">
+                <h3>HOME</h3>
+                <div class="score-total">
+                  <h2 class="neonText" id="home-score">0</h2>
+                </div>
+                <div class="increments">
+                    <button value ="1" class="score-button" onclick ="hscore(this.value)">+1</button>
+                    <button value ="2" class="score-button" onclick ="hscore(this.value)">+2</button>
+                    <button value ="3" class="score-button" onclick ="hscore(this.value)">+3</button>
+                </div>
+            </div>
+            <div class="separator">
+                <p>:</p>
+            </div>
+            <div class="guestscore">
+                <h3>GUEST</h3>
+                <div class="score-total">
+                  <h2 class="neonText" id="guest-score">0</h2>
+                </div>
+                <div class="increments">
+                  <button value ="1" class="score-button" onclick ="gscore(this.value)">+1</button>
+                  <button value ="2" class="score-button" onclick ="gscore(this.value)">+2</button>
+                  <button value ="3" class="score-button" onclick ="gscore(this.value)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
